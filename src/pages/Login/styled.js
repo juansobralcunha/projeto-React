@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
-  background: green;
-  small {
-    font-size: 12pt;
-    margin-left: 15px;
-    color: #999;
-  }
-`;
+export const Form = styled.form`
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 
-export const Paragrafo = styled.p`
-  font-size: 80px;
+  input {
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
 `;
